@@ -93,7 +93,7 @@ function Inputs({ autoFocus, keys, layout, name, onBlur }) {
 
   if (type === 'relation') {
     return (
-      <div className="col-6" key={keys}>
+      <div className="col-12" key={keys}>
         <SelectWrapper
           {...metadatas}
           name={keys}
